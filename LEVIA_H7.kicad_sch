@@ -4623,7 +4623,7 @@
 			)
 		)
 		(pin "UART2{UART}" input
-			(at 120.65 63.5 180)
+			(at 120.65 66.04 180)
 			(uuid "7296d87c-1016-4f22-b64a-dc2703bebcec")
 			(effects
 				(font

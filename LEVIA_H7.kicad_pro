@@ -580,6 +580,12 @@
       "+5V": "rgb(255, 153, 0)",
       "+5V_SYS": "rgb(205, 107, 255)",
       "+9V": "rgb(255, 255, 0)",
+      "/MCU/VCAP": "rgb(39, 100, 255)",
+      "/MCU/VDD": "rgb(255, 255, 0)",
+      "/MCU/VDDA": "rgb(255, 0, 0)",
+      "/MCU/VDD_LDO": "rgb(55, 255, 187)",
+      "/MCU/VDD_MCU": "rgb(0, 255, 0)",
+      "/MCU/VDD_USB": "rgb(255, 153, 0)",
       "GND": "rgb(72, 72, 72)",
       "VBAT": "rgb(255, 0, 255)"
     },
@@ -785,7 +791,7 @@
         "uuid": "6b768b36-fce6-4be0-9021-6d41bddc3a70"
       }
     ],
-    "used_designators": "NT1-6,TP1-2,U1-23,C1-54,SW1,H1-4,R1-49,JP1,Q1,Y1-2,#PWR1-122,#PWR134-137,D1-4,J1,#SYM1-13,USB1-2,L1-2",
+    "used_designators": "NT1-6,TP1-2,U1-24,C1-54,SW1,H1-4,R1-49,JP1,Q1,Y1-2,#PWR1-123,#PWR134-137,D1-4,J1,#SYM1-13,USB1-2,L1-2",
     "variants": []
   },
   "sheets": [
