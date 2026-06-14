@@ -524,6 +524,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SDIO",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "SPI",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -531,7 +559,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "*USB_OTG*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C1.*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*I2C2.*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI*"
+      },
+      {
+        "netclass": "SDIO",
+        "pattern": "*SDIO*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
