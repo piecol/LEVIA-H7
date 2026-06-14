@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -146,7 +146,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -158,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -210,7 +210,13 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.127,
+        0.146,
+        0.154,
+        0.175,
+        0.2032,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +248,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -528,28 +538,35 @@
       {
         "name": "I2C",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 2,
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MOTOR",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "SDIO",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "SPI",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
       {
         "name": "USB",
         "pcb_color": "rgb(0, 255, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       }
@@ -582,11 +599,27 @@
       },
       {
         "netclass": "SPI",
-        "pattern": "*SPI*"
+        "pattern": "*SPI1*"
       },
       {
         "netclass": "SDIO",
         "pattern": "*SDIO*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI2*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI3/SPI*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI4*"
+      },
+      {
+        "netclass": "MOTOR",
+        "pattern": "*MOTOR*"
       }
     ]
   },
@@ -709,7 +742,7 @@
       ],
       "USB": [
         "DP",
-        "DM"
+        "DN"
       ]
     },
     "connection_grid_size": 50.0,

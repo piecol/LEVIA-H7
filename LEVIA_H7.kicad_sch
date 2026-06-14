@@ -2574,6 +2574,16 @@
 		)
 		(uuid "31762ee2-b9be-4d7c-9b76-9a2700dc748e")
 	)
+	(bus
+		(pts
+			(xy 170.18 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492e09e9-ef33-466f-93c7-52d984ac1cd2")
+	)
 	(wire
 		(pts
 			(xy 101.6 120.65) (xy 120.65 120.65)
@@ -2623,16 +2633,6 @@
 			(type default)
 		)
 		(uuid "67e3aa4b-cb19-4bff-9fe4-2f19a2b8840c")
-	)
-	(bus
-		(pts
-			(xy 170.18 66.04) (xy 187.96 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68a4834c-efec-43e3-a21b-9d68c18ad938")
 	)
 	(bus
 		(pts
@@ -4623,13 +4623,13 @@
 			)
 		)
 		(pin "UART2{UART}" input
-			(at 170.18 66.04 0)
+			(at 120.65 63.5 180)
 			(uuid "7296d87c-1016-4f22-b64a-dc2703bebcec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "UART3{UART}" input
@@ -4643,13 +4643,13 @@
 			)
 		)
 		(pin "UART4{UART}" input
-			(at 120.65 66.04 180)
+			(at 170.18 66.04 0)
 			(uuid "162b97d6-d3de-4d6e-8ed5-b0af71692460")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "UART6{UART}" input
@@ -5582,9 +5582,9 @@
 				(justify left top)
 			)
 		)
-		(pin "UART2{UART}" bidirectional
-			(at 187.96 66.04 180)
-			(uuid "f806a835-4e2f-4171-9a5f-f2a028a47a9e")
+		(pin "UART3{UART}" input
+			(at 187.96 68.58 180)
+			(uuid "c7d118a3-fbb2-496a-aef3-a0b1b9c61b36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,9 +5592,9 @@
 				(justify left)
 			)
 		)
-		(pin "UART3{UART}" input
-			(at 187.96 68.58 180)
-			(uuid "c7d118a3-fbb2-496a-aef3-a0b1b9c61b36")
+		(pin "UART4{UART}" input
+			(at 187.96 66.04 180)
+			(uuid "a6070f82-3efe-4461-9a54-612f6c52d9b4")
 			(effects
 				(font
 					(size 1.27 1.27)

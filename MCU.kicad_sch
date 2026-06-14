@@ -16311,7 +16311,7 @@
 		)
 		(uuid "63b62539-1193-4a0b-8361-a1a4b089e9e7")
 	)
-	(label "USB_OTG_P.DM"
+	(label "USB_OTG_P.DN"
 		(at 52.07 167.64 180)
 		(effects
 			(font
@@ -17181,7 +17181,7 @@
 		)
 		(uuid "e5853b3d-21d2-4489-81f2-e082d728995f")
 	)
-	(label "USB_OTG_P.DM"
+	(label "USB_OTG_P.DN"
 		(at 189.23 54.61 180)
 		(effects
 			(font
