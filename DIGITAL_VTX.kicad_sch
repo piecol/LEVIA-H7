@@ -1914,7 +1914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33e186a8-6b13-46f8-a1e3-69ccd1f6a124")
-		(property "Reference" "C76"
+		(property "Reference" "C52"
 			(at 80.01 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1978,7 +1978,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/d502a7f7-d1fe-4e26-830a-09f99790de5a"
-					(reference "C76")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -1995,7 +1995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39ccbb02-92a5-4334-97f7-b15ad0ae4e78")
-		(property "Reference" "U18"
+		(property "Reference" "U20"
 			(at 105.41 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2111,7 +2111,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/d502a7f7-d1fe-4e26-830a-09f99790de5a"
-					(reference "U18")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7987272f-00e6-4e6a-9373-fe3789427456")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0109"
 			(at 78.74 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2189,7 +2189,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/d502a7f7-d1fe-4e26-830a-09f99790de5a"
-					(reference "#PWR0104")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7995539d-0d4b-4b5f-ae36-9d675ae2a090")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0110"
 			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2267,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/d502a7f7-d1fe-4e26-830a-09f99790de5a"
-					(reference "#PWR01")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2361,7 +2361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8fd8be2-d576-45d6-92fa-c750f68aba61")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0111"
 			(at 102.87 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2421,7 +2421,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/d502a7f7-d1fe-4e26-830a-09f99790de5a"
-					(reference "#PWR084")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

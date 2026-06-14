@@ -3060,7 +3060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b9df4d-c5d3-4fa4-8f13-af585f52055b")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR07"
 			(at 121.92 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3120,7 +3120,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR0136")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3138,7 +3138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "315082ff-bce6-428f-87a5-794ec37535c8")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR03"
 			(at 90.17 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3198,7 +3198,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR0123")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3215,7 +3215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "337db1b4-5312-43a6-a7b5-45d0592cc7b5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR01"
 			(at 53.34 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3275,7 +3275,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR024")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3292,7 +3292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41f1bb75-2469-40d3-b2ec-d46bf72ab010")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR02"
 			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3353,7 +3353,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR026")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49430886-a80c-45e4-95b3-caf4a4f5a3c5")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 68.58 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3432,7 +3432,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "563579d9-642b-439c-99a0-d8259b8031f6")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 68.58 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3511,7 +3511,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa91266-db11-4816-bea7-4465e5fc2aae")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR05"
 			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3669,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR0134")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa5f8333-27de-4a25-bd54-4686c6823430")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR04"
 			(at 90.17 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3746,7 +3746,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR025")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3764,7 +3764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b64f72c8-e780-49b7-b528-748d1f416795")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR06"
 			(at 114.3 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3824,7 +3824,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR0135")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4223,7 +4223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea96407c-c5cc-4d25-b53d-ed5dfba34585")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR08"
 			(at 129.54 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4283,7 +4283,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "#PWR0137")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4380,7 +4380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc8525a6-e074-4859-b80f-492bc0126b8b")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 93.98 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,7 +4471,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)

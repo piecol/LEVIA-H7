@@ -1506,7 +1506,7 @@
 				(size 5.08 5.08)
 			)
 		)
-		(uuid "17c8fe6e-3eab-473e-aa4d-5154831dee94")
+		(uuid "9b160ffe-5576-4d17-8d8b-8bbe48a76a46")
 	)
 	(junction
 		(at 110.49 71.12)
@@ -1678,16 +1678,6 @@
 		)
 		(uuid "518c402d-d755-4d8c-8c09-76c7a17d6361")
 	)
-	(bus
-		(pts
-			(xy 27.94 27.94) (xy 30.48 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5952d10d-4340-4c98-b195-a6a54e71fbe5")
-	)
 	(wire
 		(pts
 			(xy 87.63 62.23) (xy 113.03 62.23)
@@ -1697,6 +1687,16 @@
 			(type default)
 		)
 		(uuid "68425b51-c1fd-4e04-86df-31104c68add9")
+	)
+	(bus
+		(pts
+			(xy 27.94 27.94) (xy 30.48 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c84f21a-5836-4c4d-a58a-ce44ff467b40")
 	)
 	(bus
 		(pts
@@ -2089,7 +2089,7 @@
 			)
 			(justify right)
 		)
-		(uuid "beb30b95-3d79-46f8-89a0-9d283e25a3f0")
+		(uuid "f33af78e-eea0-418b-afb2-9c204ae566f0")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -2102,7 +2102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "283e0ad2-5e1a-4b0e-8d73-8c592e37b77c")
-		(property "Reference" "R37"
+		(property "Reference" "R49"
 			(at 80.01 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2164,7 +2164,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "R37")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -2181,7 +2181,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37d1e0d8-12f8-4c02-910c-29572d570934")
-		(property "Reference" "U12"
+		(property "Reference" "U23"
 			(at 115.57 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2303,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "U12")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -2396,7 +2396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e50a350-79e2-4632-9232-9919709deaf2")
-		(property "Reference" "R29"
+		(property "Reference" "R46"
 			(at 80.01 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2458,7 +2458,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "R29")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acd8fed0-ef93-4111-b167-859e6ddabddc")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0121"
 			(at 110.49 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2536,7 +2536,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "#PWR028")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d19d4f23-7261-46a4-bfe5-85e955669a14")
-		(property "Reference" "R35"
+		(property "Reference" "R47"
 			(at 80.01 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2615,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "R35")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2632,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddb3e21d-347d-42a0-a412-51ee83244d49")
-		(property "Reference" "R36"
+		(property "Reference" "R48"
 			(at 80.01 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2694,7 +2694,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "R36")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4c5c6d8-7186-43bd-b1c6-a7bd561109b6")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0120"
 			(at 110.49 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2772,7 +2772,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/8ca90a2c-e0e4-42bc-a785-b72a7bf551d7"
-					(reference "#PWR092")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
