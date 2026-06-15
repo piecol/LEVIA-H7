@@ -3054,7 +3054,7 @@
 		)
 		(uuid "61f0713c-79a0-4460-91a1-7a43ebc741bd")
 	)
-	(label "USB_OTG.DM"
+	(label "USB_OTG.DN"
 		(at 69.85 58.42 0)
 		(effects
 			(font
@@ -3064,7 +3064,7 @@
 		)
 		(uuid "be9283ca-5ade-460f-8234-aa5f08d534fa")
 	)
-	(label "USB_OTG_P.DM"
+	(label "USB_OTG_P.DN"
 		(at 95.25 58.42 0)
 		(effects
 			(font
