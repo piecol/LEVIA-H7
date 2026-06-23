@@ -7078,10 +7078,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "SW_Push_1"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -7091,19 +7088,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Reference" "SW2"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7112,8 +7098,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "RKCGG140SMTRLFS"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SW-SMD_4P-L3.0-W2.6-P1.80-LS3.5"
+				(at 0 14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7123,8 +7119,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2927792.pdf"
+				(at 0 9.906 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7135,7 +7131,40 @@
 				)
 			)
 			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "C&K"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RKCGG140SMTRLFS"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2927792"
+				(at 0 -24.13 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7156,7 +7185,19 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "SW_Push_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -7203,6 +7244,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -7223,6 +7276,44 @@
 				)
 				(pin passive line
 					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_1_1_1"
+				(pin passive line
+					(at -5.08 -2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -8365,6 +8456,12 @@
 		(uuid "3ebce858-83fa-4492-b829-efe80f9e4798")
 	)
 	(junction
+		(at 91.44 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c911b4-b1af-4d90-8435-72917c2f1bcd")
+	)
+	(junction
 		(at 236.22 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8483,6 +8580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5e725b8-0add-4142-8d78-f782e88fb817")
+	)
+	(junction
+		(at 101.6 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4b1ca3e-3566-459b-baed-f3cf3b0a5e3f")
 	)
 	(junction
 		(at 227.33 69.85)
@@ -9995,6 +10098,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 140.97) (xy 101.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551ba2c5-407a-4349-9596-a70fd24952ff")
+	)
+	(wire
+		(pts
 			(xy 265.43 142.24) (xy 265.43 144.78)
 		)
 		(stroke
@@ -10862,6 +10975,16 @@
 			(type default)
 		)
 		(uuid "a646a1b7-94d3-4f71-925e-726e0f32898f")
+	)
+	(wire
+		(pts
+			(xy 91.44 140.97) (xy 91.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69d6d92-50ea-4d1f-af17-daf7ba3dc4b3")
 	)
 	(wire
 		(pts
@@ -19850,119 +19973,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 96.52 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "480bb0db-9b73-4e0d-bcea-c4a195afbcc9")
-		(property "Reference" "SW1"
-			(at 96.52 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 96.52 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:SW-SMD_L4.0-W3.0-LS5.0"
-			(at 96.52 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1185-B-A-B-A_C561517.html"
-			(at 96.52 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 96.52 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XKB Connectivity(中国星坤)"
-			(at 96.52 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TS-1185-B-A-B-A"
-			(at 96.52 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C561517"
-			(at 96.52 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fcf5cd84-1b93-4bb5-83f1-f82d13109a79")
-		)
-		(pin "1"
-			(uuid "60dd6e78-bbf1-4abc-9301-15a6a6b83a27")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 227.33 49.53 0)
 		(unit 1)
@@ -21896,6 +21906,126 @@
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 96.52 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a46aada6-c26e-4872-81b9-094afba8927e")
+		(property "Reference" "SW2"
+			(at 96.52 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RKCGG140SMTRLFS"
+			(at 96.52 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-SMD_4P-L3.0-W2.6-P1.80-LS3.5"
+			(at 96.52 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2927792.pdf"
+			(at 96.52 131.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 96.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 96.52 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RKCGG140SMTRLFS"
+			(at 96.52 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2927792"
+			(at 96.52 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ffe762c5-8d65-4151-89d6-d2724c78f79c")
+		)
+		(pin "1"
+			(uuid "873a584a-4727-4c86-ad6c-d57c8ca909f5")
+		)
+		(pin "3"
+			(uuid "c3ab117a-8589-4b39-86b9-d6fbd72ef901")
+		)
+		(pin "4"
+			(uuid "5ac67b47-711c-40f9-bb01-a8841a603d4b")
+		)
+		(instances
+			(project "LEVIA_H7"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
