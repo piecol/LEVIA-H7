@@ -16653,7 +16653,7 @@
 			(uuid "a598c439-a1ce-418a-9250-d34ed8c81341")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 135)
+			(at -0.014142 0.014142 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e8c31dbb-0b1d-45c1-b51d-28c3bde4fde5")
@@ -16958,6 +16958,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "064a5ea8-985b-4bdd-a5a2-23f138df478d")
 			(effects
 				(font
@@ -17031,7 +17032,7 @@
 			(uuid "90a2aab5-9b3a-4b78-8147-1e3f6156c8c1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "c33906fa-30d0-4f06-ba01-85c0f722efbb")
@@ -18361,13 +18362,14 @@
 	(footprint "EasyEDA:TestPoint_Pad_1.8x0.9mm"
 		(layer "B.Cu")
 		(uuid "0b77d4db-dae0-4c6a-b996-c645b47d9d38")
-		(at 139.919995 51.425004)
+		(at 139.919995 51.425004 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP8"
-			(at 0.01 1.62 0)
+			(at 0.01 1.62 180)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "013e8d6c-1345-4591-b746-8b9cc4c36cf7")
 			(effects
 				(font
@@ -18391,7 +18393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18405,7 +18407,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -18442,7 +18444,7 @@
 			(uuid "1fbea6b2-e830-4644-9491-faa55dc1ddc3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "24d7e5b8-14b4-4abe-bd5e-473cb0ca2357")
@@ -18455,7 +18457,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 0.9 1.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -18980,13 +18982,14 @@
 	(footprint "EasyEDA:TestPoint_Pad_1.8x0.9mm"
 		(layer "B.Cu")
 		(uuid "19b4323d-2480-4275-ba49-7511be8f6c3a")
-		(at 143.959283 51.400004)
+		(at 143.959283 51.400004 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP5"
-			(at 0.01 1.62 0)
+			(at 0.01 1.62 180)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f5ad099e-2a0d-468e-b586-532342f61332")
 			(effects
 				(font
@@ -19010,7 +19013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -19024,7 +19027,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -19061,7 +19064,7 @@
 			(uuid "2698838a-8d1d-45c8-a129-11d2c893cef9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "264af2f5-dbaf-426b-b9de-f66f73d94729")
@@ -19074,7 +19077,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 0.9 1.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -19266,6 +19269,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "fb294153-a22b-4f96-8efd-697011332669")
 			(effects
 				(font
@@ -19340,7 +19344,7 @@
 			(uuid "2eee3e76-d94e-4671-aeef-889d90054f19")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "d901b010-83ec-4aab-9847-3de00b5c4761")
@@ -20400,6 +20404,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bcf1d277-e02b-4168-b755-6bff2edc282e")
 			(effects
 				(font
@@ -20473,7 +20478,7 @@
 			(uuid "a3e56716-83ea-4d98-abc9-83521d7105db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2d0e6737-2a25-4371-8f8d-11ec316fc7c8")
@@ -20842,13 +20847,14 @@
 	(footprint "EasyEDA:TestPoint_Pad_1.8x0.9mm"
 		(layer "B.Cu")
 		(uuid "30e9490a-3b3d-49f9-a655-e2ad047334ba")
-		(at 149.345 51.4)
+		(at 149.345 51.4 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP9"
-			(at 0.01 1.62 180)
+			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d7e3a5a5-4a96-44df-8c46-118329b783a1")
 			(effects
 				(font
@@ -20859,7 +20865,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -1.550001 180)
+			(at 0 -1.550001 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20873,7 +20879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20887,7 +20893,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -20911,9 +20917,10 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.52 0.96701)
-			(end 0.52 -0.97)
+		(fp_poly
+			(pts
+				(xy -0.52 -0.97) (xy 0.52 -0.97) (xy 0.52 0.96701) (xy -0.52 0.96701)
+			)
 			(stroke
 				(width 0.02)
 				(type default)
@@ -20923,7 +20930,7 @@
 			(uuid "9b696a73-5a07-409f-b65f-282cae73a650")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 180)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "87544ab1-4e91-4f04-93fb-2bd69b8f9849")
@@ -20936,7 +20943,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 0.9 1.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -23063,6 +23070,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "dca04df3-d88a-4c73-83a0-d6f1a95728ea")
 			(effects
 				(font
@@ -23137,7 +23145,7 @@
 			(uuid "e63fb7a9-7880-412e-af74-7319eb5aa929")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "4fdf4b77-2d9c-41a3-87bf-d0ed817b4e97")
@@ -23853,6 +23861,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7b6e4088-602b-4e7f-baca-818dc64161ee")
 			(effects
 				(font
@@ -23926,7 +23935,7 @@
 			(uuid "f2070c89-530b-40a0-86a9-8736352bd009")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "0bd6d459-e997-4569-ba6c-8f3a97ee5f01")
@@ -23960,6 +23969,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "91e6c239-3a62-44fd-ac28-7cb9bf891884")
 			(effects
 				(font
@@ -24033,7 +24043,7 @@
 			(uuid "37ff8f85-4224-4b52-8013-44641f9044b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "8311608b-292d-4fb1-8cf8-67a49b6e15fd")
@@ -26376,13 +26386,14 @@
 	(footprint "EasyEDA:TestPoint_Pad_1.8x0.9mm"
 		(layer "B.Cu")
 		(uuid "7e6cde4b-39bc-4644-a163-5b2da97c2ba8")
-		(at 142.612854 51.400004)
+		(at 142.612854 51.400004 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP6"
-			(at 0.01 1.62 0)
+			(at 0.01 1.62 180)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "2f25bce1-19fe-4d31-84e2-993762dba3d2")
 			(effects
 				(font
@@ -26406,7 +26417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26420,7 +26431,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -26457,7 +26468,7 @@
 			(uuid "dd716436-84b8-4d95-a9ee-d3e1aba9441c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "6e970ee0-756f-43f7-8db0-30c03aff680c")
@@ -26470,7 +26481,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 0.9 1.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -26491,6 +26502,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "93abf344-9fac-4cd6-a034-bfcd04bf7dd8")
 			(effects
 				(font
@@ -26565,7 +26577,7 @@
 			(uuid "60b1481e-dd8e-4a32-90f6-affce70fbd60")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "74a56cc5-e26c-4904-9392-5dda37fce08a")
@@ -27040,13 +27052,14 @@
 	(footprint "EasyEDA:TestPoint_Pad_1.8x0.9mm"
 		(layer "B.Cu")
 		(uuid "8ac6a81a-236d-4d79-9c7a-2c78f995b7b4")
-		(at 147.998571 51.4)
+		(at 147.998571 51.4 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP10"
-			(at 0.01 1.62 180)
+			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d9be95a1-067c-4863-9357-03bc65255b0b")
 			(effects
 				(font
@@ -27057,7 +27070,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -1.550001 180)
+			(at 0 -1.550001 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27071,7 +27084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27085,7 +27098,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -27109,9 +27122,10 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.52 0.96701)
-			(end 0.52 -0.97)
+		(fp_poly
+			(pts
+				(xy -0.52 -0.97) (xy 0.52 -0.97) (xy 0.52 0.96701) (xy -0.52 0.96701)
+			)
 			(stroke
 				(width 0.02)
 				(type default)
@@ -27121,7 +27135,7 @@
 			(uuid "00d29b3e-18fa-4dc5-b8f9-166a2adb703b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 180)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "86c7d3e7-1c28-4c82-ac03-bc8a893af649")
@@ -27134,7 +27148,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 0.9 1.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
@@ -27742,6 +27756,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ac51a500-6073-4349-8c2b-91e084a07065")
 			(effects
 				(font
@@ -27804,9 +27819,10 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.52 0.96701)
-			(end 0.52 -0.97)
+		(fp_poly
+			(pts
+				(xy 0.52 0.96701) (xy -0.52 0.96701) (xy -0.52 -0.97) (xy 0.52 -0.97)
+			)
 			(stroke
 				(width 0.02)
 				(type default)
@@ -27816,7 +27832,7 @@
 			(uuid "d6fdb708-3c3a-47ac-badf-a23bfda825ab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "10d80ac0-e0ad-4741-bbe2-a5db6ccc96de")
@@ -28328,6 +28344,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "bf391ec3-9727-4508-9c3e-196a2b0be5bf")
 			(effects
 				(font
@@ -28401,7 +28418,7 @@
 			(uuid "42f4bcfd-dfed-4e7d-9489-50124ab1c073")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "cd05ea28-1d9e-4e8b-a3ba-a117c5dcf83e")
@@ -30535,6 +30552,7 @@
 			(at 0.01 1.62 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8fc4412a-7392-4c27-b24c-6c1b18d6d25f")
 			(effects
 				(font
@@ -30608,7 +30626,7 @@
 			(uuid "7516ce2d-5038-4925-8852-fcc96d6cc2f5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "887bbd81-1960-49ef-84c2-6286ea15050e")
@@ -32068,13 +32086,14 @@
 	(footprint "EasyEDA:TestPoint_Pad_1.8x0.9mm"
 		(layer "B.Cu")
 		(uuid "f864a7bc-e046-4ae5-a3a8-735a5cb4cc96")
-		(at 141.266424 51.400004)
+		(at 141.266424 51.400004 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP7"
-			(at 0.01 1.62 0)
+			(at 0.01 1.62 180)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ec883437-ba66-4643-890e-b8ae7326678e")
 			(effects
 				(font
@@ -32098,7 +32117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32112,7 +32131,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -32149,7 +32168,7 @@
 			(uuid "e7383f8c-1a14-45bb-af49-155065885edb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.74 0)
+			(at 0 0.019383 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "997b21a2-d6d9-4b0f-8dc8-5305a4a12d88")
@@ -32162,7 +32181,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at 0 0)
+			(at 0 0 180)
 			(size 0.9 1.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
