@@ -1868,6 +1868,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7430446"
+			(at 107.95 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fc60ed93-9c4c-4a1c-8aa6-0b78688d956a")
 		)

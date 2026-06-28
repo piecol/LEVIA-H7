@@ -2618,6 +2618,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 154.94 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1d28fce7-ecd9-4424-b6a4-f0806508d140")
 		)
@@ -2708,6 +2719,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 154.94 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ed988bc6-66a3-4370-9541-000a08b9614a")
 		)
@@ -2788,6 +2810,17 @@
 			)
 		)
 		(property "LCSC Part" "C25744"
+			(at 154.94 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 154.94 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -2966,6 +2999,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 154.94 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b19797b3-6ab4-4492-bc0e-d62b7a0456f6")
 		)
@@ -3046,6 +3090,17 @@
 			)
 		)
 		(property "LCSC Part" "C25744"
+			(at 154.94 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 154.94 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -3138,6 +3193,17 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
+			(at 59.69 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3262,6 +3328,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5310496"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a24c7683-09c5-431e-8a6e-725cc3cfdb25")
 		)
@@ -3368,6 +3445,17 @@
 			)
 		)
 		(property "LCSC Part" "C52923"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3534,6 +3622,17 @@
 			)
 		)
 		(property "LCSC Part" "C25744"
+			(at 154.94 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 154.94 66.04 90)
 			(hide yes)
 			(show_name no)

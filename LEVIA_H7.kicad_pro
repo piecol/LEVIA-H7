@@ -78,14 +78,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|148604005|67475782|12df24af-e47d-496a-bf71-22a822ff0bf3|c192a06e-703e-4331-b6b3-cd6e6697047e",
-          ""
-        ],
-        [
-          "clearance|150488988|69063518|12df24af-e47d-496a-bf71-22a822ff0bf3|bdafcf36-38fc-4ce0-9ee4-fc74317ecfa0",
-          ""
-        ],
-        [
           "solder_mask_bridge|148207264|69854393|bdafcf36-38fc-4ce0-9ee4-fc74317ecfa0|c192a06e-703e-4331-b6b3-cd6e6697047e",
           ""
         ],
@@ -742,6 +734,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -779,12 +777,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -796,12 +788,12 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "c15",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${DNP}"
+      "sort_field": "Value"
     },
     "bus_aliases": {
       "CAN": [

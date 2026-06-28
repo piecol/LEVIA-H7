@@ -1980,6 +1980,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 78.74 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2a7d2e5-50b4-45fc-a26b-d9ca5b632ab7")
 		)
@@ -2086,6 +2097,17 @@
 		)
 		(property "LCSC Part" "C7430448"
 			(at 109.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7430448"
+			(at 109.22 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
