@@ -582,19 +582,20 @@
       "version": 5
     },
     "net_colors": {
-      "+3V3_MCU": "rgb(0, 255, 0)",
+      "+3V3_MCU": "rgb(155, 255, 78)",
       "+3V3_SENS": "rgb(0, 255, 255)",
       "+5V": "rgb(255, 153, 0)",
       "+5V_SYS": "rgb(205, 107, 255)",
       "+9V": "rgb(255, 255, 0)",
       "/MCU/VCAP": "rgb(39, 100, 255)",
-      "/MCU/VDD": "rgb(255, 255, 0)",
+      "/MCU/VDD": "rgb(73, 232, 255)",
       "/MCU/VDDA": "rgb(255, 0, 0)",
       "/MCU/VDD_LDO": "rgb(55, 255, 187)",
       "/MCU/VDD_MCU": "rgb(0, 255, 0)",
       "/MCU/VDD_USB": "rgb(255, 153, 0)",
       "GND": "rgb(72, 72, 72)",
       "VBAT": "rgb(255, 0, 255)",
+      "VBUS": "rgb(7, 151, 255)",
       "VCAP": "rgb(255, 223, 18)"
     },
     "netclass_assignments": null,
@@ -799,7 +800,7 @@
         "uuid": "6b768b36-fce6-4be0-9021-6d41bddc3a70"
       }
     ],
-    "used_designators": "#PWR16,#PWR18,#PWR20,#PWR22,#PWR128-129,FB1,TP5-8,TP11-19",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

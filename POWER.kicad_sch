@@ -9666,7 +9666,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 218.44 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,7 +10071,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 218.44 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
