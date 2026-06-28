@@ -1,0 +1,14 @@
+(version 1)
+
+(rule "Reduced pad edge clearance"
+    (condition "A.Type == 'Pad'")
+    (constraint edge_clearance (min 0.05mm))
+)
+
+
+
+(rule "Castellated mounting holes"
+    (condition "A.Type == 'Pad' && (A.Reference == 'H1' || A.Reference == 'H2' || A.Reference == 'H3' || A.Reference == 'H4')")
+    (constraint edge_clearance (min -1mm))
+
+)
