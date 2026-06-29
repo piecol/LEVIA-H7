@@ -18715,6 +18715,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL05A225MQ5NSNC"
+			(at 233.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 233.68 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15ae3176-0762-4cce-83d4-705982f7281f")
 		)
@@ -18806,6 +18828,28 @@
 			)
 		)
 		(property "LCSC" "C25091"
+			(at 219.71 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF2200TCE"
+			(at 219.71 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 219.71 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -18910,6 +18954,28 @@
 			)
 		)
 		(property "LCSC" "C23733"
+			(at 236.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 236.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 236.22 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19101,6 +19167,28 @@
 				)
 			)
 		)
+		(property "MPN" "0402WGF1002TCE"
+			(at 104.14 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 104.14 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23a74286-0b90-40cd-98b7-6a0a953e2ee8")
 		)
@@ -19281,6 +19369,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 233.68 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 233.68 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32686bd6-c654-4952-ac27-e8f52e848263")
 		)
@@ -19376,6 +19486,28 @@
 			)
 		)
 		(property "LCSC" "C964146"
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32H743VIH6"
+			(at 256.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 256.54 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -20015,6 +20147,28 @@
 				)
 			)
 		)
+		(property "MPN" "0402WGF1003TCE"
+			(at 259.08 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 259.08 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f39bfcfb-a6a5-40bc-9315-d7a4cf7ec5cc")
 		)
@@ -20564,6 +20718,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 227.33 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 227.33 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "18fe537a-bf32-4fcf-ba2a-731716eccdec")
 		)
@@ -20805,6 +20981,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL05A225MQ5NSNC"
+			(at 227.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 227.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4557906c-0e9a-496e-9c3b-edcc617b3e1e")
 		)
@@ -20908,6 +21106,28 @@
 				)
 			)
 		)
+		(property "MPN" "CL05A105KA5NQNC"
+			(at 214.63 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 214.63 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "832da2fe-61d6-4b7d-81cc-2e4465af476d")
 		)
@@ -21001,6 +21221,28 @@
 			)
 		)
 		(property "LCSC" "C964146"
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32H743VIH6"
+			(at 151.13 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -21398,6 +21640,28 @@
 			)
 		)
 		(property "LCSC" "C52923"
+			(at 227.33 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A105KA5NQNC"
+			(at 227.33 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 227.33 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21949,6 +22213,28 @@
 				)
 			)
 		)
+		(property "MPN" "FCM1608KF-601T02"
+			(at 227.33 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TAI-TECH"
+			(at 227.33 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ea553204-c4e6-4e29-9d86-fa1b131f87ec")
 		)
@@ -22052,6 +22338,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 220.98 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 220.98 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "179dc927-25f0-4349-8ffa-72dc6da5a3b7")
 		)
@@ -22143,6 +22451,28 @@
 			)
 		)
 		(property "LCSC" "C25091"
+			(at 219.71 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF2200TCE"
+			(at 219.71 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 219.71 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -22324,6 +22654,28 @@
 			)
 		)
 		(property "LCSC" "C23733"
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A475MP5NRNC"
+			(at 214.63 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 214.63 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -22564,6 +22916,28 @@
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 220.98 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 220.98 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 220.98 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -22960,6 +23334,28 @@
 				)
 			)
 		)
+		(property "MPN" "0402WGF2200TCE"
+			(at 219.71 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 219.71 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0863046-bfad-4ad5-9bdf-0b97f588b37e")
 		)
@@ -23141,6 +23537,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 233.68 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 233.68 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "169b3842-e8b5-466d-a742-7130c55d430e")
 		)
@@ -23234,6 +23652,28 @@
 			)
 		)
 		(property "LCSC" "C1525"
+			(at 115.57 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 115.57 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 115.57 154.94 0)
 			(hide yes)
 			(show_name no)

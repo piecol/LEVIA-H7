@@ -676,7 +676,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "nextpcb/gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -711,8 +711,8 @@
         },
         {
           "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
@@ -729,6 +729,24 @@
         },
         {
           "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "LCSC Part",
           "name": "LCSC Part",
           "show": true
@@ -738,12 +756,6 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
         },
         {
           "group_by": true,
@@ -765,18 +777,6 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -788,7 +788,7 @@
           "show": false
         }
       ],
-      "filter_string": "c15",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

@@ -3552,6 +3552,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 69.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 69.85 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5558e07-d7fb-462b-820b-9283905cd031")
 		)
@@ -4123,6 +4145,28 @@
 				)
 			)
 		)
+		(property "MPN" "GRM022R60J104KE15D"
+			(at 64.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 64.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79df5059-f241-45c5-9a83-fe2f65e465ae")
 		)
@@ -4528,6 +4572,28 @@
 				)
 			)
 		)
+		(property "MPN" "PESD2CANFD24V-TR"
+			(at 130.81 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 130.81 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8a6e8f00-7a42-4dcb-a9e0-8cc6bdf02c07")
 		)
@@ -4625,6 +4691,28 @@
 			)
 		)
 		(property "LCSC" "C25079"
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1200TCE"
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)
