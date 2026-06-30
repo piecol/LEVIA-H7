@@ -3596,9 +3596,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
 		(uuid "0b008a6b-39a8-4459-af8d-66d990367fb0")
 		(property "Reference" "JP1"
 			(at 124.46 68.58 90)

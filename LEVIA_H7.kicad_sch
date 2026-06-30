@@ -4550,7 +4550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "EasyEDA:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BL"
 			(at 91.186 62.611 0)
 			(hide yes)
 			(show_name no)
